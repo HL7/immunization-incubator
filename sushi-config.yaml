@@ -5,9 +5,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.uv.immunization-incubator
 canonical: http://hl7.org/fhir/uv/immunization-incubator
-name: Immunization Incubator Implementation Guide
+name: ImmunizationAdditionalResources
 title: Immunization Incubator Implementation Guide
-description: IG with Immunization Additional Resources
+description: A guide that defines ImmunizationEvaluation and ImmunizationRecommendation as Addition Resources in FHIR
 status: active # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 6.0.0-ballot3
@@ -30,8 +30,12 @@ extension:
 # dependencies:
 
 parameters:
-  # path-resource: input/resources/graphdefinition
-  # additional-resource: input/resources/graphdefinition/StructureDefinition-GraphDefinition.xml
+  path-resource:
+    - input/resources/immunizationevaluation
+    - input/resources/immunizationrecommendation
+  additional-resource:
+    - input/resources/immunizationevaluation/StructureDefinition-ImmunizationEvaluation.xml
+    - input/resources/immunizationrecommendation/StructureDefinition-ImmunizationRecommendation.xml
   special-url-base: http://hl7.org/fhir
   
 pages:
@@ -39,10 +43,16 @@ pages:
     title: IG Home
   changes.md:
     title: Change Log
+  background.md:
+    title: Background
  
 
 menu:
   Home: index.html
-  FHIR Artifacts:
-    Artifacts: artifacts.html
-    Change Log: changes.html
+  Background: background.html
+  FHIR Artifacts: artifacts.html
+#  Support:
+#    Discussion Forum: https://chat.fhir.org/#channels/501058/Symptoms.20on.20FHIR
+#    Project Dashboard: 
+#    Propose a Change: 
+  Change Log: changes.html
