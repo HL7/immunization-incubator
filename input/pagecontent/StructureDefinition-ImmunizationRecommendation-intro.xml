@@ -1,0 +1,30 @@
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
+
+<div>
+
+<a name="scope"></a>
+<h3>Scope and Usage</h3>
+<p>
+The ImmunizationRecommendation resource is intended to cover the expression of a customized set of immunization recommendations and status for a specific individual with the ultimate goal of achieving long-lasting immunity in the individual. This can include recommending future doses to progress the individual along the path to immunity and/or indicating that vaccination is not needed (e.g., the individual has completed the recommended set of doses and has presumed immunity, a contraindication or other condition would render further doses inadvisable, an acquired immunity negates the need for additional doses, the patient has aged out of a series). Where the individual is not yet fully protected, recommendations may be used to initiate clinical activity such as the ordering and administration of a vaccine. These recommendations may be used for non-clinical purposes such as presentation of vaccination credentials, satisfaction of school enrollment requirements or public health purposes. While not explicitly expressed in the resource itself, the "intent" of an ImmunizationRecommendation resource is always considered to be "proposal".  
+</p>
+<p>
+An individual recommendation in the ImmunizationRecommendation resource will often relate to the recommendation of a specific dose of vaccine. The base ImmunizationRecommendation is silent on the time frame for the recommended administration date for a recommendation contained in the resource. That is, it is a system decision about how far in advance (1 day, 1 week, 6 weeks, 6 months, etc) of the recommendation administration date a recommendation is made. A recommendation may also be used to indicate that additional doses are not needed for some reason (such as the series is complete, the patient has aged out of the series, the patient is immune through some other mechanism or additional doses are contraindicated). This functionality may be important to convey to end users that they should not take action.
+</p>
+<p>
+The display of immunization recommendations to end users is the responsibility of the system using the data contained in the ImmunizationRecommendation resource. Use case specific Implementation Guides can define specific display or usage expectations (if any) of systems using the recommendations contained in the resource.
+</p>
+</div>
+
+<div>
+<a name="bnr"></a>
+<h3>Boundaries and Relationships</h3>
+
+<p>An ImmunizationRecommendation resource may reference the relevant Immunization and ImmunizationEvaluation resources that underly the recommendation. Additional resources may be referenced where they document other factors (such as underlying medical conditions, behaviors, etc) which impact the recommendation. 
+</p>
+<p>The recommendations contained within an ImmunizationRecommendation resource may be used to initiate a set of clinical activities leading to the administration and documentation of one or more doses of vaccine. Where a record of an order to administer a vaccine is required, the MedicationRequest resource is used. The value of MedicationRequest.intent is used to distinguish between a plan to vaccinate and an authorized order. MedicationRequest.basedOn may be used to link the order to the initiating ImmunizationRecommendation. The documentation of the administration of the vaccine should be accomplished through the use of the Immunization resource. 
+</p>
+<p>Note that the ImmunizationRecommendation resource allows the inclusion of multiple recommendations in a single instance of the resource. Where the output of the evaluation process results in only a single recommendation, the use of MedicationRequest where .intent is valued "proposal" is allowed as an alternative to the ImmunizationRecommendation resource if it simplifies the subsequent clinical workflow.
+</p>
+</div>
+
+</div>
