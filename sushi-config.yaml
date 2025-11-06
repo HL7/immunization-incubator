@@ -7,7 +7,7 @@ id: hl7.fhir.uv.immunization-incubator
 canonical: http://hl7.org/fhir/uv/immunization-incubator
 name: ImmunizationAdditionalResources
 title: Immunization Incubator Implementation Guide
-description: A guide that defines ImmunizationEvaluation and ImmunizationRecommendation as Addition Resources in FHIR
+description: A guide that defines ImmunizationEvaluation and ImmunizationRecommendation as Additional Resources in FHIR
 status: active # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 6.0.0-ballot3
