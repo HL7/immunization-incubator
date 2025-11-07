@@ -1,12 +1,25 @@
-/_gencontinuous.bat
+
+# output/generation folders
 /output
 /temp
 /input-cache
+/fsh-generated
+/template
+
+# Intentionally don't track the jira artifact references (as these resources should be in the core spec and don't want to duplicate in jira)
+# (different for each incubator IG too)
+FHIR-immunization-incubator.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IG Publisher files we don't want in git
+/_gencontinuous.bat
 /_gencontinuous.sh
 /_genonce.bat
 /_genonce.sh
 /_updatePublisher.bat
 /_updatePublisher.new.bat
 /_updatePublisher.sh
-/fsh-generated
-/template
+

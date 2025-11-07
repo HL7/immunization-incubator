@@ -5,10 +5,12 @@ As implementers develop, test and implement production-ready systems utilizing t
 
 ### In this IG
 
-* The ImmunizationEvaluation resource for conveying the outcome of the assessment of the validity of an immunization event relative to a set of recommended guidelines
-* The ImmunizationRecommendation resource for conveying a set of personalized recommendations for an individual
-* The Value Sets required by these Additional Resources
-* Example resources
+- Additional FHIR Resources
+    - The [**ImmunizationEvaluation**](StructureDefinition-ImmunizationEvaluation.html) resource is defined for the purpose of conveying the outcome of the assessment of the validity of an immunization event relative to a set of recommended guidelines
+    - The [**ImmunizationRecommendation**](StructureDefinition-ImmunizationRecommendation.html)  resource is defined for conveying a set of personalized recommendations for an individual
+- Supporting Content
+    - The **Value Sets** required by these Additional Resources are defined
+    - **Examples** are provided
 
 ### Relationship to Other Work
 
