@@ -6,26 +6,26 @@
   <mode value="working"/>
   <entry>
     <extension url="http://hl7.org/fhir/build/StructureDefinition/description">
-      <valueString value="Example of immunizationrecommendation using a vaccine code"/>
+      <valueString value="Example of ImmunizationRecommendation using a vaccine code"/>
     </extension>
     <extension url="http://hl7.org/fhir/build/StructureDefinition/title">
-      <valueString value="immunizationrecommendation-example"/>
+      <valueString value="immunizationrecommendation-example-by-vaccine-code"/>
     </extension>
     <item>
-      <reference value="ImmunizationRecommendation/example"/>
-      <display value="General"/>
+      <reference value="ImmunizationRecommendation/immunization-recommendation-by-vaccine-code"/>
+      <display value="Recommendation by Vaccine Code"/>
     </item>
   </entry>
   <entry>
     <extension url="http://hl7.org/fhir/build/StructureDefinition/description">
-      <valueString value="Example of immunizationrecommendation using a target disease"/>
+      <valueString value="Example of ImmunizationRecommendation using a target disease"/>
     </extension>
     <extension url="http://hl7.org/fhir/build/StructureDefinition/title">
-      <valueString value="immunizationrecommendation-example-target-disease"/>
+      <valueString value="immunizationrecommendation-example-by-target-disease"/>
     </extension>
     <item>
-      <reference value="ImmunizationRecommendation/example-target-disease"/>
-      <display value="General"/>
+      <reference value="ImmunizationRecommendation/immunization-recommendation-by-target-disease"/>
+      <display value="Recommendation by Target Disease"/>
     </item>
   </entry>
 </List>

@@ -12,8 +12,8 @@
       <valueString value="immunizationevaluation-example"/>
     </extension>
     <item>
-      <reference value="ImmunizationEvaluation/example"/>
-      <display value="Valid"/>
+      <reference value="ImmunizationEvaluation/immunization-evaluation-valid"/>
+      <display value="Valid Dose Evaluation"/>
     </item>
   </entry>
   <entry>
@@ -24,8 +24,8 @@
       <valueString value="immunizationevaluation-example-notvalid"/>
     </extension>
     <item>
-      <reference value="ImmunizationEvaluation/notValid"/>
-      <display value="Not Valid"/>
+      <reference value="ImmunizationEvaluation/immunization-evaluation-invalid"/>
+      <display value="Invalid Dose Evaluation"/>
     </item>
   </entry>
 </List>

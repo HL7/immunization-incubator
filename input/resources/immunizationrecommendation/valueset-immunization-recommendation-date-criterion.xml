@@ -37,20 +37,28 @@
   </contact>
   <description value="The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support the definition of dates relevant to recommendations for future doses of vaccines. This value set is provided as a suggestive example."/>
   <copyright value="This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use."/>
-  <compose>
+<compose>
     <include>
       <system value="http://loinc.org"/>
       <concept>
         <code value="30981-5"/>
+        <display
+                 value="Earliest date to give"/>
       </concept>
       <concept>
         <code value="30980-7"/>
+        <display
+                 value="Date vaccine due"/>
       </concept>
       <concept>
         <code value="59777-3"/>
+        <display
+                 value="Latest date to give immunization"/>
       </concept>
-      <concept>
+            <concept>
         <code value="59778-1"/>
+        <display
+                 value="Date when overdue for immunization"/>
       </concept>
     </include>
   </compose>
