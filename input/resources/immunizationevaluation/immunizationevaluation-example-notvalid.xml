@@ -7,8 +7,7 @@
 	</identifier>
 	<status value="completed"/>
 	<patient>
-		<reference value="https://hl7.org/fhir/patient-example.html"/>
-		<display value="Peter James Chalmers"/>
+		<reference value="Patient/example"/>
 	</patient>
 	<date value="2026-01-10"/>
 	<authority>
