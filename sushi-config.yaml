@@ -42,7 +42,25 @@ parameters:
     - input/resources/immunizationevaluation/StructureDefinition-ImmunizationEvaluation.xml
     - input/resources/immunizationrecommendation/StructureDefinition-ImmunizationRecommendation.xml
   special-url-base: http://hl7.org/fhir
-  
+
+resources:
+  ImmunizationEvaluation/immunization-evaluation-invalid:
+    name: immunization evaluation - invalid 
+    description: An example of an administration event which was found to be invalid.
+    exampleBoolean: true
+  ImmunizationEvaluation/immunization-evaluation-valid:
+    name: immunization evaluation - valid
+    description: An example of an administration event which was found to be valid.
+    exampleBoolean: true
+  ImmunizationRecommendation/immunization-recommendation-by-target-disease:
+    name: recommendation by target disease
+    description: An example of an immunization recommendation by target disease.
+    exampleBoolean: true
+  ImmunizationRecommendation/immunization-recommendation-by-vaccine-code:
+    name: recommendation by vaccine code
+    description: An example of an immunization recommendation by vaccine code.
+    exampleBoolean: true
+
 pages:
   index.md:
     title: IG Home

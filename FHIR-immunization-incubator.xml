@@ -12,7 +12,6 @@
 <artifact id="ValueSet/immunization-recommendation-date-criterion" key="ValueSet-immunization-recommendation-date-criterion" name="Immunization Recommendation Date Criterion Codes"/>
 <artifact id="ValueSet/immunization-recommendation-reason" key="ValueSet-immunization-recommendation-reason" name="Immunization Recommendation Reason Codes"/>
 <artifact id="ValueSet/immunization-recommendation-status" key="ValueSet-immunization-recommendation-status" name="Immunization Recommendation Status Codes"/>
-<artifact id="List/ImmunizationEvaluation-examples" key="List-ImmunizationEvaluation-examples" name="ImmunizationEvaluation-examples"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-date" key="SearchParameter-ImmunizationEvaluation-date" name="ImmunizationEvaluationDateSearchParam"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-dose-status" key="SearchParameter-ImmunizationEvaluation-dose-status" name="ImmunizationEvaluationDose-statusSearchParam"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-identifier" key="SearchParameter-ImmunizationEvaluation-identifier" name="ImmunizationEvaluationIdentifierSearchParam"/>
@@ -20,7 +19,6 @@
 <artifact id="SearchParameter/ImmunizationEvaluation-patient" key="SearchParameter-ImmunizationEvaluation-patient" name="ImmunizationEvaluationPatientSearchParam"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-status" key="SearchParameter-ImmunizationEvaluation-status" name="ImmunizationEvaluationStatusSearchParam"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-target-disease" key="SearchParameter-ImmunizationEvaluation-target-disease" name="ImmunizationEvaluationTarget-diseaseSearchParam"/>
-<artifact id="List/ImmunizationRecommendation-examples" key="List-ImmunizationRecommendation-examples" name="ImmunizationRecommendation-examples"/>
 <artifact id="SearchParameter/ImmunizationRecommendation-date" key="SearchParameter-ImmunizationRecommendation-date" name="ImmunizationRecommendationDateSearchParam"/>
 <artifact id="SearchParameter/ImmunizationRecommendation-identifier" key="SearchParameter-ImmunizationRecommendation-identifier" name="ImmunizationRecommendationIdentifierSearchParam"/>
 <artifact id="SearchParameter/ImmunizationRecommendation-information" key="SearchParameter-ImmunizationRecommendation-information" name="ImmunizationRecommendationInformationSearchParam"/>
@@ -29,10 +27,10 @@
 <artifact id="SearchParameter/ImmunizationRecommendation-support" key="SearchParameter-ImmunizationRecommendation-support" name="ImmunizationRecommendationSupportSearchParam"/>
 <artifact id="SearchParameter/ImmunizationRecommendation-target-disease" key="SearchParameter-ImmunizationRecommendation-target-disease" name="ImmunizationRecommendationTarget-diseaseSearchParam"/>
 <artifact id="SearchParameter/ImmunizationRecommendation-vaccine-type" key="SearchParameter-ImmunizationRecommendation-vaccine-type" name="ImmunizationRecommendationVaccine-typeSearchParam"/>
-<artifact id="ImmunizationEvaluation/immunization-evaluation-invalid" key="ImmunizationEvaluation-immunization-evaluation-invalid" name="immunization-evaluation-invalid"/>
-<artifact id="ImmunizationEvaluation/immunization-evaluation-valid" key="ImmunizationEvaluation-immunization-evaluation-valid" name="immunization-evaluation-valid"/>
-<artifact id="ImmunizationRecommendation/immunization-recommendation-by-target-disease" key="ImmunizationRecommendation-immunization-recommendation-by-target-disease" name="immunization-recommendation-by-target-disease"/>
-<artifact id="ImmunizationRecommendation/immunization-recommendation-by-vaccine-code" key="ImmunizationRecommendation-immunization-recommendation-by-vaccine-code" name="immunization-recommendation-by-vaccine-code"/>
+<artifact id="ImmunizationEvaluation/immunization-evaluation-invalid" key="ImmunizationEvaluation-immunization-evaluation-invalid" name="immunization evaluation - invalid"/>
+<artifact id="ImmunizationEvaluation/immunization-evaluation-valid" key="ImmunizationEvaluation-immunization-evaluation-valid" name="immunization evaluation - valid"/>
+<artifact id="ImmunizationRecommendation/immunization-recommendation-by-target-disease" key="ImmunizationRecommendation-immunization-recommendation-by-target-disease" name="recommendation by target disease"/>
+<artifact id="ImmunizationRecommendation/immunization-recommendation-by-vaccine-code" key="ImmunizationRecommendation-immunization-recommendation-by-vaccine-code" name="recommendation by vaccine code"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
