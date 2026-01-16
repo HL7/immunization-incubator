@@ -14,7 +14,7 @@ As implementers develop, test and implement production-ready systems utilizing t
 
 ### Relationship to Other Work
 
-This IG references Normative resources in the FHIR R6 Core Specification and is intended to extend the immunization related capabilities of the Core Specification.
+This IG references Normative resources in the FHIR R6 Core Specification and is intended to extend the immunization related capabilities of the Core Specification. The references defined in this IG may be used by other IGs to define use case specific FHIR-based interoperability solutions.
 
 ### Dependencies
 {% lang-fragment dependency-table-nontech.xhtml %}
