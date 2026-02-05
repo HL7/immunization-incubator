@@ -45,19 +45,19 @@ parameters:
 
 resources:
   ImmunizationEvaluation/immunization-evaluation-invalid:
-    name: immunization evaluation - invalid 
+    name: ImmunizationEvaluation - Invalid Example 
     description: An example of an administration event which was found to be invalid.
     exampleBoolean: true
   ImmunizationEvaluation/immunization-evaluation-valid:
-    name: immunization evaluation - valid
+    name: ImmunizationEvaluation - Valid Example
     description: An example of an administration event which was found to be valid.
     exampleBoolean: true
   ImmunizationRecommendation/immunization-recommendation-by-target-disease:
-    name: recommendation by target disease
+    name: ImmunizationRecommendation - By Target Disease Example
     description: An example of an immunization recommendation by target disease.
     exampleBoolean: true
   ImmunizationRecommendation/immunization-recommendation-by-vaccine-code:
-    name: recommendation by vaccine code
+    name: ImmunizationRecommendation - By Vaccine Code Example
     description: An example of an immunization recommendation by vaccine code.
     exampleBoolean: true
 
