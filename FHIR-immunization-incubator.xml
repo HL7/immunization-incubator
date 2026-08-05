@@ -15,12 +15,12 @@
 <artifact id="ImmunizationEvaluation/immunization-evaluation-invalid" key="ImmunizationEvaluation-immunization-evaluation-invalid" name="ImmunizationEvaluation - Invalid Example"/>
 <artifact id="ImmunizationEvaluation/immunization-evaluation-valid" key="ImmunizationEvaluation-immunization-evaluation-valid" name="ImmunizationEvaluation - Valid Example"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-date" key="SearchParameter-ImmunizationEvaluation-date" name="ImmunizationEvaluationDateSearchParam"/>
-<artifact id="SearchParameter/ImmunizationEvaluation-dose-status" key="SearchParameter-ImmunizationEvaluation-dose-status" name="ImmunizationEvaluationDose-statusSearchParam"/>
+<artifact id="SearchParameter/ImmunizationEvaluation-dose-status" key="SearchParameter-ImmunizationEvaluation-dose-status" name="ImmunizationEvaluationDoseStatusSearchParam"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-identifier" key="SearchParameter-ImmunizationEvaluation-identifier" name="ImmunizationEvaluationIdentifierSearchParam"/>
-<artifact id="SearchParameter/ImmunizationEvaluation-immunization-event" key="SearchParameter-ImmunizationEvaluation-immunization-event" name="ImmunizationEvaluationImmunization-eventSearchParam"/>
+<artifact id="SearchParameter/ImmunizationEvaluation-immunization-event" key="SearchParameter-ImmunizationEvaluation-immunization-event" name="ImmunizationEvaluationImmunizationEventSearchParam"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-patient" key="SearchParameter-ImmunizationEvaluation-patient" name="ImmunizationEvaluationPatientSearchParam"/>
 <artifact id="SearchParameter/ImmunizationEvaluation-status" key="SearchParameter-ImmunizationEvaluation-status" name="ImmunizationEvaluationStatusSearchParam"/>
-<artifact id="SearchParameter/ImmunizationEvaluation-target-disease" key="SearchParameter-ImmunizationEvaluation-target-disease" name="ImmunizationEvaluationTarget-diseaseSearchParam"/>
+<artifact id="SearchParameter/ImmunizationEvaluation-target-disease" key="SearchParameter-ImmunizationEvaluation-target-disease" name="ImmunizationEvaluationTargetDiseaseSearchParam"/>
 <artifact id="ImmunizationRecommendation/immunization-recommendation-by-target-disease" key="ImmunizationRecommendation-immunization-recommendation-by-target-disease" name="ImmunizationRecommendation - By Target Disease Example"/>
 <artifact id="ImmunizationRecommendation/immunization-recommendation-by-vaccine-code" key="ImmunizationRecommendation-immunization-recommendation-by-vaccine-code" name="ImmunizationRecommendation - By Vaccine Code Example"/>
 <artifact id="SearchParameter/ImmunizationRecommendation-date" key="SearchParameter-ImmunizationRecommendation-date" name="ImmunizationRecommendationDateSearchParam"/>
@@ -29,8 +29,8 @@
 <artifact id="SearchParameter/ImmunizationRecommendation-patient" key="SearchParameter-ImmunizationRecommendation-patient" name="ImmunizationRecommendationPatientSearchParam"/>
 <artifact id="SearchParameter/ImmunizationRecommendation-status" key="SearchParameter-ImmunizationRecommendation-status" name="ImmunizationRecommendationStatusSearchParam"/>
 <artifact id="SearchParameter/ImmunizationRecommendation-support" key="SearchParameter-ImmunizationRecommendation-support" name="ImmunizationRecommendationSupportSearchParam"/>
-<artifact id="SearchParameter/ImmunizationRecommendation-target-disease" key="SearchParameter-ImmunizationRecommendation-target-disease" name="ImmunizationRecommendationTarget-diseaseSearchParam"/>
-<artifact id="SearchParameter/ImmunizationRecommendation-vaccine-type" key="SearchParameter-ImmunizationRecommendation-vaccine-type" name="ImmunizationRecommendationVaccine-typeSearchParam"/>
+<artifact id="SearchParameter/ImmunizationRecommendation-target-disease" key="SearchParameter-ImmunizationRecommendation-target-disease" name="ImmunizationRecommendationTargetDiseaseSearchParam"/>
+<artifact id="SearchParameter/ImmunizationRecommendation-vaccine-type" key="SearchParameter-ImmunizationRecommendation-vaccine-type" name="ImmunizationRecommendationVaccineTypeSearchParam"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
