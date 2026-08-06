@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ImmunizationEvaluation xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/immunizationevaluation.xsd">
+<ImmunizationEvaluation xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/immunizationevaluation.xsd" resourceDefinition="http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation|0.1.0">
 	<id value="immunization-evaluation-invalid"/>
 	<identifier>
 		<system value="urn:ietf:rfc:3986"/>
