@@ -15,7 +15,7 @@
   </identifier>
   <name value="ImmunizationEvaluationStatusCodes"/>
   <title value="Immunization Evaluation Status Codes"/>
-  <status value="draft"/>
+  <!-- <status value="draft"/> -->
   <experimental value="false"/>
   <publisher value="FHIR Project team"/>
   <contact>

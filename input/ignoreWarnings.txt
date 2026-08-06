@@ -8,9 +8,9 @@
 Pinned the version of http://hl7.org/fhir/ValueSet/%
 Pinned the version of http://hl7.org/fhir/StructureDefinition/%
 
-# 02: R6 error message that will no be resolved until R6 is published
+# 02: ERROR: R6 error message that will no be resolved until R6 is published
 The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions points to the package hl7.fhir.uv.extensions which is inconsistent with the stated packageId of hl7.fhir.uv.extensions.r5
 
-# 03: Tooling issue see: Zulip thread https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Our.20EBM.20IG.20build.20uses.20an.20incubator.20only.20Resource.20Type/with/614623711
+# 03: ERROR: Tooling issue see: Zulip thread https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Our.20EBM.20IG.20build.20uses.20an.20incubator.20only.20Resource.20Type/with/614623711
 The type ImmunizationEvaluation is not legal because it is not defined in the FHIR specification. Other types must have a namespace on them
 The type ImmunizationRecommendation is not legal because it is not defined in the FHIR specification. Other types must have a namespace on them
