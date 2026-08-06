@@ -42,6 +42,7 @@ parameters:
     - input/resources/immunizationevaluation/StructureDefinition-ImmunizationEvaluation.xml
     - input/resources/immunizationrecommendation/StructureDefinition-ImmunizationRecommendation.xml
   special-url-base: http://hl7.org/fhir
+  pin-canonicals: pin-multiples
 
 resources:
   ImmunizationEvaluation/immunization-evaluation-invalid:
