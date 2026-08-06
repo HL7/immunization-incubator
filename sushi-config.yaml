@@ -42,7 +42,7 @@ parameters:
     - input/resources/immunizationevaluation/StructureDefinition-ImmunizationEvaluation.xml
     - input/resources/immunizationrecommendation/StructureDefinition-ImmunizationRecommendation.xml
   special-url-base: http://hl7.org/fhir
-  # auto-oid-root: 2.16.840.1.113883.4.642.40.85
+  auto-oid-root: 2.16.840.1.113883.4.642.40.85
   pin-canonicals: pin-multiples
 
 resources:
