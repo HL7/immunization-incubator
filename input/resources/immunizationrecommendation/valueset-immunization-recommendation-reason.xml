@@ -16,7 +16,7 @@
   <version value="6.0.0"/>
   <name value="ImmunizationRecommendationReasonCodes"/>
   <title value="Immunization Recommendation Reason Codes"/>
-  <!-- <status value="draft"/> -->
+  <status value="active"/>
   <experimental value="true"/>
   <publisher value="FHIR Project team"/>
   <contact>

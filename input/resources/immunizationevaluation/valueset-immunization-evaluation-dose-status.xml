@@ -16,7 +16,7 @@
   <version value="6.0.0"/>
   <name value="ImmunizationEvaluationDoseStatusCodes"/>
   <title value="Immunization Evaluation Dose Status codes"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="true"/>
   <publisher value="FHIR Project team"/>
   <contact>
