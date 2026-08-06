@@ -2,7 +2,6 @@
 
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="ImmunizationRecommendation-search-params"/>
-  <status value="active"/>
   <entry>
     <resource>
       <SearchParameter>
