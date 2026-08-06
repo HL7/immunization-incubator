@@ -4,5 +4,6 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-# 01: Suppress information messages about pinned value sets
+# 01: Suppress information messages about pinned artifacts
 Pinned the version of http://hl7.org/fhir/ValueSet/%
+Pinned the version of http://hl7.org/fhir/StructureDefinition/%
