@@ -18,20 +18,20 @@ This IG references Normative resources in the FHIR R6 Core Specification and is 
 
 The references defined in this IG may be used by other IGs to define use case specific FHIR-based interoperability solutions.
 
-## Dependencies and Statements
+### Dependencies and Statements
 
-### Dependencies
+#### Dependencies
 
 {% lang-fragment dependency-table-short.xhtml %}
 
-### Cross Version Analysis
+#### Cross Version Analysis
 
 {% lang-fragment cross-version-analysis.xhtml %}
 
-### Global Profiles
+#### Global Profiles
 
 {% lang-fragment globals-table.xhtml %}
 
-### IP Statements
+#### IP Statements
 
 {% lang-fragment ip-statements.xhtml %}
